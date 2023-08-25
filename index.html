@@ -37,6 +37,7 @@
     <!-- <link async rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplelightbox@2.10.4/dist/simple-lightbox.min.css" integrity="sha256-Y7oc+CWkcbubbpAchmHj8GaWvJr1edAXDahMV34E7l4=" crossorigin="anonymous"> -->
     <link async rel="stylesheet" href="css/bootstrap.css">
 	<link async rel="stylesheet" href="css/public.css">
+	<!-- <link rel="stylesheet" href="css/produk.css"> -->
 
 	<!-- Simple Light Box -->
 	<script src="https://cdn.jsdelivr.net/npm/simplelightbox@2/dist/simple-lightbox.min.js"></script>
@@ -212,7 +213,7 @@
 		<!-- HERO -->
 
 		<!-- COMPANY PROFILE -->
-		<section class="compro mb-5 px-4 px-lg-5 py-2">
+		<section class="compro pb-5 px-4 px-lg-5 py-2 shadow-sm">
 
 			<div class="d-flex w-100 mb-5">
 				<div>
@@ -297,7 +298,10 @@
 				
 				<div data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease" class="col">
 					<figure class="mb-3 mx-0 overflow-hidden rounded">
-						<img class="w-100 lazy" src="img/lazyholder.jpg" data-src="img/general-trading.jpg" alt="General Trading">
+						<div class="spinner-border" role="status">
+							<span class="visually-hidden">Loading...</span>
+							<img class="w-100 lazy" src="img/lazyholder.jpg" data-src="img/general-trading.jpg" alt="General Trading">
+						</div>
 					</figure>
 					<h4 class="fs-5 fw-bold text-utama bidang-usaha-title text-center">General Trading</h4>
 					<p class="mb-0 text-center">Menyediakan jasa pembangunan gedung sipil, persiapan lahan, dan penyelesaian bangunan</p>
@@ -305,7 +309,10 @@
 
 				<div data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease" data-aos-delay="500" class="col">
 					<figure class="mb-3 mx-0 overflow-hidden rounded">
-						<img class="w-100 lazy" src="img/lazyholder.jpg" data-src="img/contractor.jpg" alt="Contractor">
+						<div class="spinner-border" role="status">
+							<span class="visually-hidden">Loading...</span>
+							<img class="w-100 lazy" src="img/lazyholder.jpg" data-src="img/contractor.jpg" alt="Contractor">
+						</div>
 					</figure>
 					<h4 class="fs-5 fw-bold text-utama bidang-usaha-title text-center">Contractor</h4>
 					<p class="mb-0 text-center">Menyediakan jasa pembangunan gedung sipil, persiapan lahan, dan penyelesaian bangunan</p>
@@ -313,7 +320,10 @@
 
 				<div data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease" data-aos-delay="1000" class="col">
 					<figure class="mb-3 mx-0 overflow-hidden rounded">
-						<img class="w-100 lazy" src="img/lazyholder.jpg" data-src="img/supplier.jpg" alt="Supplier">
+						<div class="spinner-border" role="status">
+							<span class="visually-hidden">Loading...</span>
+							<img class="w-100 lazy" src="img/lazyholder.jpg" data-src="img/supplier.jpg" alt="Supplier">
+						</div>
 					</figure>
 					<h4 class="fs-5 fw-bold text-utama bidang-usaha-title text-center">Supplier</h4>
 					<p class="mb-0 text-center">Menyediakan material konstruksi berkualitas dengan harga bersaing</p>
@@ -323,6 +333,51 @@
 
 		</section>
 		<!-- BIDANG USAHA -->
+
+		<!-- PRODUK -->
+		<section class="mb-3 mt-3 px-4 px-lg-5 py-2">
+
+			<div class="d-flex justify-content-center mb-5">
+				<div>
+					<h2 data-aos="fade-up" data-aos-duration="3000" class="fw-bold mb-3">Produk</h2>
+					<div class="underbar"></div>
+				</div>
+			</div>
+
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+				<div class="col-md-4 col-sm-6 col-xs-12" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease">
+					<div class="card shadow mb-3 text-center" style="border-radius: 25px;">
+						<img src="img/1-1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease" data-aos-delay="500">
+					<div class="card shadow mb-3 text-center" style="border-radius: 25px;">
+						<img src="img/1-1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease" data-aos-delay="1000">
+					<div class="card shadow mb-3 text-center" style="border-radius: 25px;">
+						<img src="img/1-1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- PRODUK -->
         </main>
 		
 		<!-- Footer -->
